@@ -1,0 +1,36 @@
+.chatroom-container{
+    display: none; /*this needs to be go back*/
+    height: 100vh;
+    width: 100%;
+}
+.form-username{
+    /*this needs to be removed*/
+ 
+}
+.chatroom-header{
+    
+    color: rgb(237, 223, 223);
+    background-color: rgb(77, 74, 74);
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 85vh; 
+}
+.message{
+    background-color: rgb(211, 211, 214);
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
+}
+.sent{
+    align-self: flex-end;
+    display: flex;
+}
